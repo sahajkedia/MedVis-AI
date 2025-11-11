@@ -1,0 +1,28 @@
+:root {
+  color-scheme: light dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+code {
+  background: color-mix(in oklab, CanvasText 6%, Canvas);
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+}
+
+
